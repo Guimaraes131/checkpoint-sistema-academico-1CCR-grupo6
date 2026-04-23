@@ -27,12 +27,19 @@ int main() {
 
                 printf("Digite a nota 2: ");
                 scanf("%f", &nota2);
+
+                float media = (nota1 + nota2) / 2;
+                
                 break;
             case 2:
-                float media = (nota1 + nota2) / 2;
                 printf("A media do aluno e: %f\n", media);
                 break;
             case 3:
+                if (media >= 6){
+                    printf("Aluno Aprovado!");
+                } else {
+                    printf("Aluno Reprovado!");
+                }
             
                 break;
             case 4:
