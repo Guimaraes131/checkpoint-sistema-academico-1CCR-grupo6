@@ -36,13 +36,16 @@ int main() {
                 break;
             case 3:
                 if (media >= 6){
-                    printf("Aluno Aprovado!");
+                    printf("Aluno Aprovado!\n");
                 } else {
-                    printf("Aluno Reprovado!");
+                    printf("Aluno Reprovado!\n");
                 }
             
                 break;
             case 4:
+                printf("Nota 1: %f\n", nota1);    
+                printf("Nota 2: %f\n", nota2);    
+                printf("Media: %f\n", media);    
             
                 break;
             case 5:
