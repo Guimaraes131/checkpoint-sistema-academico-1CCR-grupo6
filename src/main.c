@@ -20,7 +20,11 @@ int main() {
     switch (escolha)
     {
     case 1:
-     
+        printf("Digite a nota 1: ");
+        scanf("%f", &nota1);
+
+        printf("Digite a nota 2: ");
+        scanf("%f", &nota2);
         break;
     case 2:
      
@@ -38,6 +42,9 @@ int main() {
     default:
         break;
     }
+
+
+
     
     return 0;
 }
