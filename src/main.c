@@ -14,6 +14,7 @@ int main() {
     printf("5 - Calcular derivada\n");
     printf("6 - Sair\n");
     printf("Escolha uma Opcao: ");
+    scanf("%d", &escolha);
  
 
     
