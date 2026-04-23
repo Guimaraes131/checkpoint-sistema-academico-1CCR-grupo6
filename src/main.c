@@ -3,6 +3,7 @@
 int main() {
 
     int escolha;
+    float nota1, nota2;
 
     printf("==============================\n");
     printf("      SISTEMA EQUIPE 6\n");
@@ -15,7 +16,7 @@ int main() {
     printf("6 - Sair\n");
     printf("Escolha uma Opcao: ");
     scanf("%d", &escolha);
- 
+    
 
     
     return 0;
