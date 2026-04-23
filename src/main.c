@@ -27,7 +27,8 @@ int main() {
         scanf("%f", &nota2);
         break;
     case 2:
-     
+        float media = (nota1 + nota2) / 2;
+        printf("A media do aluno e: %f", media);
         break;
     case 3:
      
