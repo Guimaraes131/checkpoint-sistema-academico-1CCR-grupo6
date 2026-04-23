@@ -1,6 +1,9 @@
 #include<stdio.h>
 
 int main() {
+
+    int escolha;
+
     printf("==============================\n");
     printf("      SISTEMA EQUIPE 6\n");
     printf("==============================\n");
