@@ -1,5 +1,10 @@
 #include<stdio.h>
 
+void derivada(int a, int b, int c)
+{
+    
+}
+
 int main() {
 
     int escolha;
