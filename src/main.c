@@ -56,7 +56,20 @@ int main() {
             
                 break;
             case 5:
-            
+
+                int a, b, c;
+                
+                printf("Digite o valor A: ");
+                scanf("%i", &a);
+                
+                printf("Digite o valor B: ");
+                scanf("%i", &b);
+
+                printf("Digite o valor C: ");
+                scanf("%i", &c);
+
+                derivada(a, b, c);
+
                 break;
             
             default:
