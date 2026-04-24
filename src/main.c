@@ -2,7 +2,9 @@
 
 void derivada(int a, int b, int c)
 {
-    
+    a = a * 2;
+
+    printf("f(x) = %ix + %i\n", a, b);
 }
 
 int main() {
